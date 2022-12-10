@@ -1,4 +1,12 @@
-Latihan Bab Linear Data Structure
+## Kelompok 9
+Anggota :
+- Husni Na'fa Mubarok
+- Dimas Rizky Ramadhani
+- Andrian Agustinus Lumban Gaol
+- Catherine Sinaga
+- Nadia Silvani
+
+## Latihan Bab Linear Data Structure
 
 1. Stacks, Queues , Deques
 - Jelaskan pengertian Stack, Queues dan Deques dalam struktur data
@@ -14,7 +22,7 @@ Latihan Bab Linear Data Structure
 
 4. Jelaskan kelebihan dan kekurangan dari Stacks, Queues , Deques, Single Linked List dan Double Linked List
 
-Jawaban
+## Jawaban
 
 1. Stacks, Queues , Deques
 - Stack adalah kumpulan objek yang dimasukan dan dikeluarkan berdasarkan prinsip last-in, first-out (LIFO). Queues adalah kumpulan objek yang dimasukan dan dikeluarkan berdasarkan prinsip first-in, first-out (FIFO). Deques (double ended Queues) adalah struktur data yang mendukung memasukan data dan menghapus dari kedua sisi (depan dan belakang) yang biasanya di baja "deck"
@@ -31,28 +39,28 @@ Jawaban
 - Maps atau Associative array adalah tipe data abstrak yang berisi kumpulan records. Setiap record dari map berisi sebuah key dan sebuah value.(mirip dictionary)
 - Hash Map/Hash Table merupakan implementasi dari Map. Hash Table adalah struktur data yang mengimplementasikan array asosiatif atau dictionary yang memetakan kunci ke nilai.
 4. 
-Stacks
-Kelebihan:
+### Stacks
+#### Kelebihan:
 - Kelebihan stack yaitu penambahan dan penghapusan data dapat dilakukan dengan cepat, yaitu selama memori masih tersedia penambahan data bisa terus dilakukan
-Kekurangan:
+#### Kekurangan:
 - Kekurangan stack yaitu setiap sel tidak hanya menyimpan value saja, melainkan juga pointer ke sel berikutnya. Hal ini menyebabkan implementasi stack memakai linked list akan memerlukan memori yang lebih banyak daripada di implementasikan dengan array
-Queues
-Kelebihan:
+### Queues
+#### Kelebihan:
 - Data dalam jumlah besar dapat dikelola secara efisien
-Kekurangan:
+#### Kekurangan:
 - Operasi seperti penyisipan dan penghapusan elemen dari tengah cenderung banyak memakan waktu
-Deques
-Kelebihan:
+### Deques
+#### Kelebihan:
 - Data dapat di tambah/dihapus dari ke dua sisi
-Kekurangan:
+#### Kekurangan:
 - memiliki kompleksitas yang cukup tinggi
-Single Linked List
-Kelebihan:
+### Single Linked List
+#### Kelebihan:
 - penambahan data di belakang, hanya dibutuhkan tail yang mengikat node baru saja tanpa harus menggunakan perulangan pointer bantu
-Kekurangan:
+#### Kekurangan:
 - Pemakaian memory lebih besar. Proses traversal lebih panjang karena tidak bisa langsung mengakses data dengan indeks. Tidak dapat melakukan reverse traversal
-Double Linked List
-Kelebihan:
+### Double Linked List
+#### Kelebihan:
 - Dapat melakukan reverse tranversal
-Kekurangan:
+#### Kekurangan:
 - Pemakaian memory lebih besar. Proses traversal lebih panjang karena tidak bisa langsung mengakses data dengan indeks.
