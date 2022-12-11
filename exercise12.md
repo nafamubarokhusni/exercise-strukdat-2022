@@ -13,6 +13,7 @@ Jawaban :
 1. Tree adalah struktur data non-linier dan hierarkis yang terdiri dari kumpulan simpul sedemikian rupa sehingga setiap simpul pohon menyimpan nilai dan daftar referensi ke simpul lain ("child").
 2. Pohon biner adalah struktur data pohon yang terdiri dari simpul-simpul, yang masing-masing memiliki paling banyak, dua anak, disebut sebagai simpul kiri dan kanan dan pohon tersebut dimulai dari simpul akar.
 3. Sebuah pohon biner terurut adalah sebuah pohon biner struktur data yang memiliki sifat-sifat sebagai berikut:
+
 - Setiap simpul memiliki sebuah nilai.
 - Sebuah susunan total ditentukan dalam nilai ini.
 - Sub pohon kiri dari sebuah simpul hanya memuat nilai lebih kecil dari nilai simpul.
